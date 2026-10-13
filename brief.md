@@ -41,4 +41,12 @@ Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Auth
 
 ## Misconception in My Track
 
+AI Risk Management Framework:
+One of the fallacies is that a highly accurate AI model is guaranteed to be safe and can be deployed. However, a highly accurate model cannot be considered to be necessarily fair, private, secure, or resistant to attacks. For instance, a login detection algorithm will make mistakes and wrongly mark a user or fail to detect a malicious user. The regulator needs to ensure that the model is tested using various scenarios, that there is no bias, personal data protection measures are taken, the key decision-making processes can be explained, and post-deployment monitoring is conducted. Human oversight is also necessary in case decisions might affect citizens' access to governmental services.
+
+Resource evidence: NIST AI Risk Management Framework 1.0 - “Map, Measure, Manage” - https://www.nist.gov/itl/ai-risk-management-framework
+
+
 ## Open Question
+
+How can a government authority ensure that an AI model detecting suspicious logins remains accurate, fair, and secure as attackers change their techniques, while protecting citizens’ privacy and avoiding the blocking of legitimate users?
