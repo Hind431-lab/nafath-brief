@@ -49,4 +49,4 @@ Resource: OpenID Connect Core 1.0 - https://openid.net/specs/openid-connect-core
 
 ## Open Question
 
-How can a government authority ensure that an AI model detecting suspicious logins remains accurate, fair, and secure as attackers change their techniques, while protecting citizens’ privacy and avoiding the blocking of legitimate users?
+How can a government authority design a single sign-on system that securely authenticates citizens across multiple services while protecting their personal data and maintaining reliable access through both mobile applications and websites?
