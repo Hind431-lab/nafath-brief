@@ -1,10 +1,9 @@
 Version: NAFATH-V1
 
-Track: AI
+Track: Software
 
 ## Overview
-This research explores six key areas for building a fully secure random login service. It examines the use of a single account to access government services via a mobile app and website. The service must upload personal information, securely verify users, and be trustworthy. Standards help explain automated logins to potential vulnerabilities, while artificial intelligence can support detection of suspicious logins.Mobile licensing, bell networks, phishing-resistant verification, and regulations on data protection are equally important. These regions are essential since any weakness in one could jeopardize system security. The following document also analyzes the way AI identifies malicious login attempts as well as the associated threats that should be addressed prior to implementation.
-
+This research explores six key areas for building a fully secure random login service. It examines the use of a single account to access government services via a mobile app and website. The service must upload personal information, securely verify users, and be trustworthy. Standards help explain automated logins to potential vulnerabilities, while artificial intelligence can support detection of suspicious logins.Mobile licensing, bell networks, phishing-resistant verification, and regulations on data protection are equally important. These regions are essential since any weakness in one could jeopardize system security. The following document also analyzes the way how OAuth 2.0 and OpenID Connect work together to support secure access to government services.
 
 ## Software
 OpenID Connect and OAuth 2.0 are distinct protocols used for different purposes. OAuth 2.0 is a protocol for authorization that enables an application to have limited access to certain resources under authorized access. OpenID Connect utilizes OAuth 2.0 and provides authentication capabilities that enable applications to authenticate the identity of a user by making use of an ID Token. In conclusion, OpenID Connect can be said to be for logins while OAuth 2.0 is for delegated access.
@@ -41,11 +40,11 @@ Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Auth
 
 ## Misconception in My Track
 
-AI Risk Management Framework:
+Authentication using the Authorization Code Flow :
 
-One of the fallacies is that a highly accurate AI model is guaranteed to be safe and can be deployed. However, a highly accurate model cannot be considered to be necessarily fair, private, secure, or resistant to attacks. For instance, a login detection algorithm will make mistakes and wrongly mark a user or fail to detect a malicious user. The regulator needs to ensure that the model is tested using various scenarios, that there is no bias, personal data protection measures are taken, the key decision-making processes can be explained, and post-deployment monitoring is conducted. Human oversight is also necessary in case decisions might affect citizens' access to governmental services.
+The myth surrounding OAuth 2.0 is that it is used as a login protocol that identifies the user's credentials. However, OAuth 2.0 is built for delegated authentication where the application gets access to the resources based on the permissions provided. OpenID Connect brings an identity layer on top of OAuth 2.0 and supplies details of the authenticated user. In the case of the government single sign-on service, knowing the correct roles of protocols can be helpful in developing the security mechanisms. This difference is explained in the OpenID Connect Core spec.
 
-Resource evidence: NIST AI Risk Management Framework 1.0 - “Map, Measure, Manage” - https://www.nist.gov/itl/ai-risk-management-framework
+Resource: OpenID Connect Core 1.0 - https://openid.net/specs/openid-connect-core-1_0.html 
 
 
 ## Open Question
