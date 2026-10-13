@@ -23,9 +23,21 @@ Resource: Request runtime permissions -https://developer.android.com/training/pe
 
 ## Networking
 
+In DoH, DNS requests are sent using the encrypted HTTPS channel rather than the traditional DNS channel that was not encrypted. The technique will make it difficult for someone to monitor and even alter the DNS requests made. But the process does not hide the IP address of the user nor encrypts all data sent using the internet connection. DoH can be used together with HTTPS and other network security techniques by a government authority.
+
+Resource: RFC 8484 - DNS Queries over HTTPS (DoH) - https://www.rfc-editor.org/rfc/rfc8484.html
+
 ## Cybersecurity
 
+Phishing-resistant authentication ensures that the user is safe from fraudulent login sites that attempt to steal their password or verification code. Authentication based on passkeys or security keys, which use FIDO2/WebAuthn technology, is phishing-resistant since it is connected to the legitimate website. On the other hand, passwords, SMS codes, and manual one-time passwords are susceptible to being stolen via phishing. It is essential for a government sign-on system to use phishing-resistant methods.
+
+Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html
+
 ## Data
+
+The Personal Data Protection Law of Oman is used to control the manner of collecting and processing of personal data. It is the responsibility of the government body to inform citizens of the reason for the collection of information and to seek their consent wherever necessary and also safeguard their data from any unauthorized access. There are certain citizen rights in respect to their personal data that include correction of their personal data.
+
+Resource: NIST SP 800-63B - Digital Identity Guidelines: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b.html 
 
 ## Misconception in My Track
 
