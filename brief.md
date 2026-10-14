@@ -47,7 +47,7 @@ Resource: Royal Decree 6/2022 - Promulgating the Personal Data Protection Law - 
 
 OAuth 2.0 Is Not a Login Protocol :
 
-The myth surrounding OAuth 2.0 is that it is used as a login protocol that identifies the user's credentials. However, OAuth 2.0 is built for delegated authentication where the application gets access to the resources based on the permissions provided. OpenID Connect brings an identity layer on top of OAuth 2.0 and supplies details of the authenticated user. In the case of the government single sign-on service, knowing the correct roles of protocols can be helpful in developing the security mechanisms. This difference is explained in the OpenID Connect Core spec.
+The myth surrounding OAuth 2.0 is that it is used as a login protocol that identifies the user's credentials. However, OAuth 2.0 is built for delegated authentication where the application gets access to the resources based on the permissions provided. OpenID Connect brings an identity layer on top of OAuth 2.0 and supplies details of the authenticated user. In the case of the government single sign-on service, knowing the correct roles of protocols can be helpful in developing the security
 
 Resource: OpenID Connect Core 1.0 - https://openid.net/specs/openid-connect-core-1_0.html 
 
